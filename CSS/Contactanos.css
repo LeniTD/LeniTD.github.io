@@ -9,7 +9,7 @@
 }
 
 body{
-    background: #181818;
+    background: #f6f6f6;
     color: #fff;
     line-height: 1.6;
     font-size: 18px;
@@ -46,7 +46,7 @@ header{
 }
 
 .logo h1 b{
-    color: #C0C0C0;
+    color: #ffff;
 }
 
 .menu{
@@ -148,6 +148,7 @@ ul {
 
 .contact-wrapper {
     box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+    margin-top: 40px;
 }
 
 .contact-wrapper > * {
@@ -155,7 +156,7 @@ ul {
 }
 
 .contact-form {
-    background: #222222;
+    background: #3d3838;
 }
 
 .contact-form form {
@@ -184,7 +185,7 @@ ul {
     border: none;
     background: none;
     outline: 0;
-    color: #fff;
+    color: #f6f6f6;
     border-bottom: 1px solid #d63031;
 }
 
@@ -198,18 +199,19 @@ ul {
 .contact-form form button:hover,
 .contact-form form button:focus {
     background: #d63031;
-    color: #fff;
+    color: #f6f6f6;
     transition: background-color 1s ease-out;
     outline: 0;
 }
 /* CONTACT INFO */
 .contact-info {
-    background: #000;
+    background: #ffff;
 }
 
 .contact-info h4, .contact-info ul, .contact-info p {
     text-align: center;
     margin: 0 0 1rem 0;
+    color:#181818;
 }
 
 
@@ -222,7 +224,7 @@ ul {
 .container-footer{
     width: 100%;
     padding: 40px 0;
-    background: #181818;
+    background: #fff;
     margin-top: 40px;
 
 }
@@ -252,7 +254,7 @@ ul {
 .container-footer footer .redes-footer .icon-redes-footer{
     font-size: 20px;
     margin: 20px;
-    background: black;
+    background: #efefef;
     width: 50px;
     height: 50px;
     display: flex;
