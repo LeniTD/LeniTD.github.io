@@ -32,7 +32,7 @@ ul {
 }
 
 .contact-form {
-    background: #3d3838;
+    background: #ffffff;
 }
 
 .contact-form form {
@@ -84,10 +84,11 @@ ul {
     background: #ffff;
 }
 
-.contact-info h4, .contact-info ul, .contact-info p {
+.contact-info h1, .contact-info ul, .contact-info p {
     text-align: center;
     margin: 0 0 1rem 0;
     color:#181818;
+    margin-top: 0;
 }
 
 
