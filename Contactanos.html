@@ -7,21 +7,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Leni Td</title>
     <link rel="stylesheet" href="CSS/principal.css">
+    <link rel="stylesheet" href="CSS/menu.css">
     <link rel="stylesheet" href="CSS/Contactanos.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>    
     <!-- GOOGLE FONTs -->
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <!-- ANIMATE CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    
 </head>
 <body>
     <header>
 
         <div class="header-content">
+     
 
             <div class="logo">
                 <h1>LENI <b>TD</b></h1>
+
             </div>
 
             <div class="menu" id="show-menu">
@@ -37,14 +40,13 @@
             </div>
 
         </div>
-
+        
         <div id="icon-menu">
             <i class="fas fa-bars"></i>
         </div>
 
     </header>
-    <!--Portada-->
-
+  <article>
     <div class="content">
 
         <h1 class="logo">Contactanos</h1>
@@ -73,12 +75,59 @@
                        <label>Mensaje</label> 
                         <textarea name="message" rows="3"></textarea>
                     </p>
-                    <p class="block">
-                        <button>
-                            <form action="leonidas13456@gmail.com" method="post" enctype="text/plain">Enviar</form>
-                        </button>
-                    </p>
-                </form>
+                 
+    </article>
+                    
+                </form>  
+                 <p class="block">
+                        <button onclick="Enviar()">Enviar</button>
+                        <style>
+                            .block button{
+                                width: 100%;
+                                padding: .7em;
+                                border: none;
+                                background: none;
+                                outline: 0;
+                                color: #f6f6f6;
+                                border-bottom: 1px solid #d63031;
+                            }
+
+                            .block button {
+                                background: #B70E21;
+                                border: 0;
+                                text-transform: uppercase;
+                                padding: 1em;
+                            }
+
+                            .block button:hover,
+                            .block button:focus {
+                                background: #d63031;
+                                color: #f6f6f6;
+                                transition: background-color 1s ease-out;
+                                outline: 0;
+                            }
+                           
+                        </style>
+                        <script type="text/javascript">
+
+                            function Enviar(){
+
+                                Swal.fire({
+                                title: 'Por el Momento no se encuentra disponible Gracias',
+                                width: 600,
+                                padding: '2em',
+                                background: '#fff url(https://sweetalert2.github.io/images/trees.png)',
+                                backdrop: `
+                                    rgba(0,0,123,0.4)
+                                    url("https://sweetalert2.github.io/images/nyan-cat.gif")
+                                    left top
+                                    no-repeat
+                                `
+                                })
+                            }
+
+                        </script>
+                     </p>   
             </div>
             <div class="contact-info">
                 <h4>Más Informacion</h4>
