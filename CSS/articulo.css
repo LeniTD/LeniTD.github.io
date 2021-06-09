@@ -35,31 +35,14 @@
     z-index: 1;
 }
 
-.container-info-cover h1{
+.container-info-cover h2{
     font-size: 40px;
     font-weight: 500px;
     color: #ffff;
     margin-bottom: 20px;
 }
-.container-info-cover h2{
-    font-size: 60px;
-    font-weight: 500px;
-    color: #ffff;
-    margin-bottom: 20px;
-}
 
-.container-info-cover h3{
-    font-size: 35px;
-    font-weight: 500px;
-    color: #ffff;
-    margin-bottom: 20px;
-}
 
-.container-info-cover p{
-    color: #ffff;
-    font-size: 20px;
-    font-weight: 300px;
-}
 
 /*Contenedor -- contenido del articulo*/
 

@@ -1,18 +1,17 @@
 
 
 audio{
-    display: flex;
-    position: absolute;
-    right: 0;
+    position: relative;
+    margin-top: auto;
+    right: -60px;
     bottom: 0;
     padding: 10px 14px;
     margin: 20px;
     color: #fff;
     font-size: 14px;
-    text-decoration: none;
     background-color: #e73c3c6b;
-    border-radius: 4px;
+    border-radius: 25px;
     box-shadow: 0 10px 20px -5px rgba(255, 1, 1, 0.86);
-    z-index: 125;
+    z-index: 5;
 }
 

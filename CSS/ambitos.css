@@ -35,14 +35,9 @@
     z-index: 1;
 }
 
-.container-info-cover h1{
-    font-size: 40px;
-    font-weight: 500px;
-    color: #ffff;
-    margin-bottom: 20px;
-}
+
 .container-info-cover h2{
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 500px;
     color: #ffff;
     margin-bottom: 20px;
@@ -101,7 +96,7 @@ article h1{
 article p{
     margin-top: 20px;
     font-size: 18px;
-    color: #3c3c3c;
+    color: #1f1e1e;
 }
 
 article img{
